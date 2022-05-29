@@ -1,0 +1,11 @@
+root@Bukola-linux:~# ./minus.sh
+root@Bukola-linux:~# chmod +x minus.sh
+root@Bukola-linux:~# cat minus.sh
+#!/bin/bash
+a=$1
+b=$2
+
+((minus=a-b))
+echo $minus
+root@Bukola-linux:~# ./minus.sh 20 10
+10
